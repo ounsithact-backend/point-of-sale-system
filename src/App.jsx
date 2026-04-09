@@ -7,7 +7,7 @@ import Loading from "./components/Loading";
 const Signin = lazy(() => import("./pages/auth/Signin"));
 const Protected = lazy(() => import("./components/Protected"));
 const AuthRedirect = lazy(() => import("./components/AuthRedirect"));
-const Authrization = lazy(() => import("./pages/authrization"));
+const Authrization = lazy(() => import("./pages/Authrization"));
 
 // Layouts
 const Adminlayout = lazy(() => import("./layout/Adminlayout"));
