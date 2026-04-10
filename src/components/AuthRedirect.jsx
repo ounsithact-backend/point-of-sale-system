@@ -19,8 +19,6 @@ function AuthRedirect({ children }) {
             return <Navigate to="/" />
         } else if (data.role === "cashier") {
             return <Navigate to="/cashier/pos"/>
-        }else{
-            return <Navigate to="/authrization"/>
         }
 
     } else {

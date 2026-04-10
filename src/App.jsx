@@ -10,7 +10,6 @@ const AuthRedirect = lazy(() => import("./components/AuthRedirect"));
 // const Authrization = lazy(() => import("./pages/Authrization"));
 // const Authrization =lazy (()=> import("./pages/Authrization"))
 
-import Authrization from "./pages/authrization";
 
 // Layouts
 const Adminlayout = lazy(() => import("./layout/Adminlayout"));
@@ -111,7 +110,7 @@ function App() {
 
 
           <Route path="/signin" element={<AuthRedirect><Signin /></AuthRedirect>}></Route>
-            <Route path="/authrization" element={<Authrization/>}></Route>
+           
           <Route path="*" element={<NotFound/>}></Route>
         </Routes>
         </Suspense>
