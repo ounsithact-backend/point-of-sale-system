@@ -1,6 +1,7 @@
 import { useParams } from "react-router";
 import { useFindByid } from "../../hook/useFindById";
-import { formatDate } from "../../utils/FormatDate";
+
+import { formatDate } from "../../utils/formatDate";
 function Invoice() {
   const route = useParams()
   const { data, isLoading } = useFindByid("sale/find", route.id)

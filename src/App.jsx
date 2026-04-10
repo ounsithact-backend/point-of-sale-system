@@ -7,7 +7,10 @@ import Loading from "./components/Loading";
 const Signin = lazy(() => import("./pages/auth/Signin"));
 const Protected = lazy(() => import("./components/Protected"));
 const AuthRedirect = lazy(() => import("./components/AuthRedirect"));
-const Authrization = lazy(() => import("./pages/Authrization"));
+// const Authrization = lazy(() => import("./pages/Authrization"));
+// const Authrization =lazy (()=> import("./pages/Authrization"))
+
+import Authrization from "./pages/authrization";
 
 // Layouts
 const Adminlayout = lazy(() => import("./layout/Adminlayout"));
@@ -48,7 +51,7 @@ const CreatePurchase = lazy(() => import("./pages/purchase/CreatePurchase"));
 
 // Sale & POS
 const ListSale = lazy(() => import("./pages/sale/ListSale"));
-const Invoice = lazy(() => import("./pages/sale/invoice"));
+const Invoice = lazy(() => import("./pages/sale/Invoice"));
 const POS = lazy(() => import("./pages/sale/POS"));
 
 // Reports
