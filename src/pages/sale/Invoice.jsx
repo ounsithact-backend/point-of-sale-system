@@ -1,6 +1,5 @@
 import { useParams } from "react-router";
 import { useFindByid } from "../../hook/useFindById";
-
 import { formatDate } from "../../utils/formatDate";
 function Invoice() {
   const route = useParams()

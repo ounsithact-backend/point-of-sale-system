@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { formatDate } from "../../utils/FormatDate";
+import { formatDate } from "../../utils/formatDate";
 import { useSaleReport } from "../../hook/useSaleReport";
 function SaleReport() {
 
